@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="full_name" placeholder="Enter Name">
+        <input type="password" name="password" placeholder="password">
+        Gender : <input type="radio" value="Male" name="gender">Male
+                  <input type="radio" value="Female" name="gender">Female
+
+        Courses : <input type="checkbox" value="C">C
+        <input type="checkbox">C++ <input type="checkbox">Java
+
+        Date : <input type="datetime-local">
+        Time : <input type="time">
+
+        <!--<select name="country" id="">
+            <option value="India">India</option>
+            <option value="Autralia">Australia</option>
+            <option value="china">China</option>
+            <option value="USA">USA</option>
+        </select>
+
+-->     Country :
+        <input  list="country" >
+        <datalist id="country">
+            <option value="India"></option>
+            <option value="Iran"></option>
+            <option value="Iraq"></option>
+            <option value="Australia"></option>
+            <option value="USA"></option>
+        </datalist>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
