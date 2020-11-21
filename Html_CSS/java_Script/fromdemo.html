@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formdemo</title>
+    <script>
+        document.addEventListener('DOMContentLoaded',function (){
+            document.querySelector("form").onsubmit=function (){
+                const msg=document.querySelector("#first").value;
+                alert(` hello ${msg}`);
+
+            }
+        })
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" id="first" size="20" placeholder="firstname">
+        <input type="submit">
+    </form>
+</body>
+</html>
