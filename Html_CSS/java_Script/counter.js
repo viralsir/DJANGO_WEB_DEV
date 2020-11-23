@@ -9,7 +9,7 @@ if(!localStorage.getItem('count'))
             counter+=1;
             document.querySelector("h1").innerHTML=counter;
 
-            localStorage.setItem('count ',counter);
+            localStorage.setItem('count',counter);
             if (counter %10 == 0)
             {
                 alert(`counter reach ${counter}`)
